@@ -52,7 +52,7 @@ CURRENCY_NAMES = {
 ## Использование
 Запустите скрипт:
 ```bash
-python currency_converter.py
+python offline_currency_converter_ru.py
 ```
 
 После запуска:
