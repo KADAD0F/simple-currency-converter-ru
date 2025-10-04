@@ -419,7 +419,7 @@ def main():
             print("Отлично! Итог рассчитан.\n")
             
             # Пасхалка
-            print("\ncv2.destroyAllWindows()", end='', flush=True)
+            print("\", end='', flush=True)
             time.sleep(1)
             # Удаляем пасхалку
             sys.stdout.write('\r' + ' ' * 20 + '\r')
