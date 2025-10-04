@@ -134,7 +134,7 @@ python offline_currency_converter_ru.py
 - **Платформы**:
   - Windows 10 21H2
   - Kali Linux (2025.2)
-  - Termux (Android 12+)
+  - Termux (Android 13)
 - **Проверенные сценарии**:
   - Работа с разными валютами
   - Обработка сетевых ошибок
