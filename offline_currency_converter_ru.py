@@ -417,14 +417,7 @@ def main():
             print(f"Курс на {rates_data['date_fetched']}")
             print(f"{'='*50}\n")
             print("Отлично! Итог рассчитан.\n")
-            
-            # Пасхалка
-            print("\", end='', flush=True)
-            time.sleep(1)
-            # Удаляем пасхалку
-            sys.stdout.write('\r' + ' ' * 20 + '\r')
-            sys.stdout.flush()
-            
+
         except Exception as e:
             print(f"\n❌ Ошибка конвертации: {str(e)}")
             print("Попробуйте выбрать другие валюты или обновить данные.")
